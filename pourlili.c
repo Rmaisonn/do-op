@@ -6,20 +6,18 @@
 /*   By: rmaisonn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/07/06 11:54:03 by rmaisonn          #+#    #+#             */
-/*   Updated: 2017/07/06 14:02:35 by rmaisonn         ###   ########.fr       */
+/*   Updated: 2017/07/24 17:58:17 by rmaisonn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-int		ft_putchar(char c);
 
 void	ft_is_negative(int n)
 {
 	if (n < 0)
 	{
-		ft_putchar('N');
+		afficher('N');
 	}
 	else
 	{
-		ft_putchar('P');
+		afficher('P');
 	}
 }
