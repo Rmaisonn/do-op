@@ -6,12 +6,12 @@
 #    By: rmaisonn <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/07/21 10:41:26 by rmaisonn          #+#    #+#              #
-#    Updated: 2017/07/24 15:44:09 by rmaisonn         ###   ########.fr        #
+#    Updated: 2017/07/24 15:51:08 by rmaisonn         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = do-op
-SRC = SRC/conditions.c SRC/doop.c SRC/fct.c SRC/ope.c
+SRC = conditions.c doop.c fct.c ope.c
 
 all: compile
 
